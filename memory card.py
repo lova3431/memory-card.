@@ -6,6 +6,7 @@ QGroupBox, QRadioButton,
 QPushButton, QLabel, QButtonGroup)
 from random import shuffle,randint  # для перемішування варіантів відповідей
 
+print("hello world")
 
 # === Клас для зберігання одного питання ===
 class Question():
@@ -227,3 +228,4 @@ window.show()
 
 # Запускаємо програму (основний цикл)
 app.exec()
+
